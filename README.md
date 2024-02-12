@@ -64,4 +64,11 @@
 
 
 ### Maintaining Programming Modal
-- 
+- OS maintains the programming model by using hardware virtual memory to load multiple programs into different physical memory locations while still preserving the illusion that each program operates in the same memory region it expects.
+- **VIRTUAL MEMEORY**
+   - it creates illusion to the programmer that programs of larger size than primarymemory can be executed. It is not existed actually It is a part of the secondary storage that gives the user the illusion that it is a part of the main memory.
+   - one feature in OS where large program can store themeselves in form of pages and while thier execution only required pages/portion are located into main memeory. - [hindi exp](https://youtu.be/sRUq_uaZ5f0?si=GMBUq_QolE5LZA1r)
+   - it is implemented by demand paging and demand segmentation process.
+   - *Demand Pageing with what is swapping*- [hindi expl](https://youtu.be/8HZGh7S1lJo?si=ys4iIvehKsG7xXfH)
+   - *Demand segementation*- 
+  
