@@ -70,5 +70,6 @@
    - one feature in OS where large program can store themeselves in form of pages and while thier execution only required pages/portion are located into main memeory. - [hindi exp](https://youtu.be/sRUq_uaZ5f0?si=GMBUq_QolE5LZA1r)
    - it is implemented by demand paging and demand segmentation process.
    - *Demand Pageing with what is swapping*- [hindi expl](https://youtu.be/8HZGh7S1lJo?si=ys4iIvehKsG7xXfH)
+   - ![maxresdefault](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/83134776-4c73-465a-ae33-d02c2de084b9)
    - *Demand segementation*- 
   
