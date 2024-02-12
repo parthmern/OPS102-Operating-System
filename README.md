@@ -15,6 +15,8 @@
 ## OS - operates the system
 - An operating system is a piece of software that manages all the resources of a computer system,both hardware and software, and provides an environment in which the user can execute his/her programs in a convenient and efficient manner by hiding underlying complexity of the hardware and acting as a resource manager.
 - Collection of system softwares
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/b6225ab7-9fdb-42c5-90f7-a0395d5b412f)
+
 
 ## what does OS do
 ### hardware abstraction
@@ -47,7 +49,19 @@
     - ![deadlock](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/4e532edd-c360-4593-af46-fdeef38a38f8)
     - Deadlock can lead to a situation where none of the processes can make progress, causing the system to become unresponsive. To prevent deadlock, operating systems often use techniques such as resource allocation strategies, deadlock detection, and deadlock recovery mechanisms.
 
-  
-      
-  
-  
+<br/>
+
+- ex. **Memory Management**- ensuring that each program has their own memory so they donot crash eachother (% of memory allocation like above tiktok example)
+- preventing multiple programs like P1, P2, P3 to sending the constantly output on same device like R1.
+<br/>
+
+- avoidance of Thrashing/Excessive Paging and Swapping - research about it
+
+### Security enforcement
+- facilitates execution of application programs by providing isolation and protection.
+- even both program is running at same time so provide isolation
+- Security Checks: If Instagram tries to access your banking data, the operating system's security guard checks its credentials. Since Instagram doesn't have permission, it's denied access.
+
+
+### Maintaining Programming Modal
+- 
