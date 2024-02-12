@@ -30,4 +30,24 @@
 - Without an OS, developers would need to manage memory and resource allocation manually, leading to redundant code and bulkier applications.
 - OS prevents one application (like TikTok) from monopolizing all resources by implementing resource management, allocating specific percentages of resources to different applications.
 - The example of running TikTok on a device illustrates the basic hardware components required (CPU, memory, GPU, disk) and the need for resource management.
-- 
+- OS have some number of resources like CPU, memory, GPU, disk, network bandwidth, peripheral devices include keyboards, mice, printers, scanners, external hard drives, webcams, and monitors ( input / output performing devices) so allocating this resources in such manner that there may be no conflict
+
+- Let's consider a simple example of resource management in a multitasking operating system. Imagine a computer with a single CPU and two running programs: Program A and Program B. Both programs need to access a shared printer to print their respective documents.
+  - Program A starts executing and requests access to the printer.
+  - The operating system grants access to the printer to Program A, allowing it to print its document.
+  - While Program A is printing, Program B starts executing and also requests access to the printer.
+  - The operating system denies access to the printer for Program B because it's currently in use by Program A. Program B is placed in a waiting state until the printer becomes available.
+  - **Resource Release / waiting process** Once Program A finishes printing, it releases the printer resource.
+  - The operating system then grants access to the printer to Program B, allowing it to print its document.
+  - using *alogorithms to do make resource management easy*
+
+    - **Dead Lock / Contension** - when 2 or more porgramms runs after / needs same resources
+    - Deadlock can occur in resource management when two or more processes are unable to proceed because each is waiting for a resource held by the other
+    - In our example, deadlock could occur if Program A had requested access to both the printer and another resource (such as disk space) that Program B was holding, while Program B simultaneously requested access to the printer and the resource held by Program A.
+    - ![deadlock](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/4e532edd-c360-4593-af46-fdeef38a38f8)
+    - Deadlock can lead to a situation where none of the processes can make progress, causing the system to become unresponsive. To prevent deadlock, operating systems often use techniques such as resource allocation strategies, deadlock detection, and deadlock recovery mechanisms.
+
+  
+      
+  
+  
