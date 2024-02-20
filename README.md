@@ -73,3 +73,45 @@
    - ![maxresdefault](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/83134776-4c73-465a-ae33-d02c2de084b9)
    - *Demand segementation*- 
   
+
+## Components of OS
+
+### Kernal
+- heart of OS
+- interects with hardware
+- Very first part of OS to load on start-up.
+- kernal is directed connected with hardware
+- 
+![what-is-kernel](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/3760ff56-3847-4b0e-ba18-666ae25295b6)
+
+- process management - process creation,termination, processes communication
+- memory management - how to allocate and deallocate memory in RAM, free space management,
+- file management - create file, delete, helps to maanage file in TREE strcuture
+- I/O management - controlling all input and output devices
+
+### User space / user interface
+- Where application software runs, apps don’t have privileged access to the underlying hardware. It interacts with kernel.
+- Enables user interaction with the system.
+- no hardware access
+- Text-based UI / command line (TUI/CLI): Allows command entry and text-based interaction.
+- Graphical UI (GUI): Facilitates interaction through graphical elements.
+- internally GUI executing the commads same to CLI to perform particular task
+- 
+- GUls are well-suited to graphical tasks, such as editing images and documents. However, they may require excessive repetitive actions in some situations.
+- CLIs are well-suited to automation, such as mass-conversion of thousands of images. However, they're not well suited to occasional tasks.
+- GUls require far more data than CLIs. A typical CLI display contains about 2 kilobytes of data; a typical HD GUI display contains about 6 megabytes (6000 kilobytes) of data. Therefore, CLIs are often used over remote connections.
+
+### System Libraries
+- its like function that performs similar task all time
+- Common set of software tasks for operations like screen drawing, network access, playing sound
+- helps to elemenate the duplication of code
+- others libraries may be installed externally but the system libraries provided by the OS which reqired by every programs to work
+
+### Services
+- Programs running continuously in the background, providing various services.
+- Example: WiFi authentication, print management, file sharing, blutooth
+- Operate without full system privilege.
+
+### utilities and applications
+- Utilities = Tools provided by the operating system for setup, configuration, and maintenance tasks, Can be accessed through GUI or CLI, GUI Utilities:- Disk Management tool (Windows), System Preferences (MacOS), CLI Utilities:- ls (list files and directories), grep (search text), chmod (change file permissions).
+- Applications = Basic starter programs provided by the operating system, Include text editors, clocks, games, and sometimes web browsers like notepad, internet explorer, firefox, clockapp
