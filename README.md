@@ -408,3 +408,12 @@
 
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/317d3c81-1c51-47fe-904b-d70a70ae7a86)
 
+- How to change Umask? = `umask 066` like this
+
+### Redirection and Piping
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/5fcfbeeb-b53c-49de-beda-c97e9691cb85)
+
+- Output of 1 is going to be input for 2
+- Here | means PIPE
+- cat trial.txt | grep “name”
+
