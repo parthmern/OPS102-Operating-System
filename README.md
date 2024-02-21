@@ -291,6 +291,15 @@
 
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/631305d8-4107-4eb4-a26f-e33f7fe2fb18)
 
+- Sort sample.txt for the sorting according to 1 to 9 and then a to z ⇒ it is risky bcz it changed the original file so be careful 
+- To solve this we have to use REDIRECTION >
+- Sort sample.txt > sample-sorted.txt
+- It creates new file . It can also override if file name is same
+
+- `>>` ⇒ used for append at the bottom
+- Echo “test” > sample.txt   ⇒ it overrights the file with text of “test”
+
+
 <br/>
 
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/8e206f7d-be83-4bdb-8540-3cbf3918e34c)
@@ -345,5 +354,44 @@
 | `[]` (square brackets) | Represents one character from a list given in brackets. | `file[1-3].txt` matches `file1.txt`, `file2.txt`, or `file3.txt`. |
 
 - These wildcards are used for pattern matching in Bash commands like ls, cp, mv, etc., allowing users to select specific files based on their names.
+
+## File permissions
+- In multi-user operating systems it is very important to be able to allow who has access to files and folders.
+- This is achieved by setting permissions of files and folders. All modern operating systems provide ways to set such permissions.
+- Linux provides elaborate command options for setting permissions. 
+- file permissions are represented by a series of characters or bits, and they define the access rights for the owner of the file, the group associated with the file, and others. 
+- `ls -l` or `ll` to see the file permission and other details
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/714c65e6-6c84-4c75-ac7d-9e45f90ba0c2)
+
+- `RWX` - means read,write,xcecute permission - highest permission
+- `R--`   - means read, no write permission , no execution permission
+- `- - -`    - means no thing can do - lowest permission
+
+| Permission | Symbol | Description                                                                                  |
+|------------|--------|----------------------------------------------------------------------------------------------|
+| Read       |   r    | Grants permission to access the file's contents, but not to edit it or execute it.            |
+| Write      |   w    | Grants permission to edit the file's contents. Write permission is only effective with read permission. |
+| Execute    |   x    | Allows the execution of the file as a program. Effective only if granted with read permission. |
+| Special (setuid, setgid, sticky) |   s    | Special permissions in certain cases, such as setuid, setgid, or sticky bit. (Details explained below.) |
+
+### Folder/directory permission
+| Permission | Symbol | Description                                                                                                      |
+|------------|--------|------------------------------------------------------------------------------------------------------------------|
+| Read       |   r    | Grants permission to read the contents of the directory, allowing listing of all files and subdirectories.      |
+| Write      |   w    | Grants permission to change/edit the contents of the directory, including creating, deleting, copying, and renaming subdirectories and files. |
+| Execute    |   x    | Grants permission to set the directory as the current working directory (allows users to use `cd` command) and access metadata for entries. Also known as "pass through" permission. |
+
+### how to change permissions?
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/9a455a60-b25c-412d-b220-a8187fc658fe)
+
+=================
+=================
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/b1c25add-51e4-4e98-8658-60871a2e3ead)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/8c392784-7dd2-4ddf-8daf-3fa6c2e9f97e)
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/96815a4f-8fd9-4389-aa26-ff963655e223)
 
 
