@@ -240,3 +240,16 @@
 | p         | Named Pipe     | A pipe for inter-process communication.           |
 | s         | Socket         | A socket for network communication.                |
 
+
+## commands
+
+| Linux Command | Windows Command | Description                                 | Example                                      |
+|---------------|-----------------|---------------------------------------------|----------------------------------------------|
+| `mkdir`       | `mkdir`         | Create directories                         | `mkdir myfolder`                             |
+| `mv`          | `move`          | Move/Rename files/directories              | `mv file.txt folder/`, `move file.txt folder/` |
+| `cp`          | `copy`          | Create a copy of the file/directory        | `cp file.txt file_copy.txt`, `copy file.txt file_copy.txt` |
+| `rm`          | `del`           | Remove the file/directory                  | `rm file.txt`, `del file.txt`                |
+| `rmdir`       | `rd`         | Remove empty directory                     | `rmdir myfolder`                             |
+| `touch`       | No equivalent   | Create an empty file/Change the timestamp of the file | `touch myfile.txt` |
+| `ls`          | `dir`           | List directory contents                    | `ls`, `dir`                                  |
+
