@@ -334,5 +334,16 @@
   - ^\ - Replace
   - ^X - Exit
 
+## File Globbing: Wild Cards
+- Definition: File globbing is a feature provided by shells (like Bash) that allows users to use special characters called wildcards to represent multiple filenames with a single expression.
+- Wildcards: Wildcards are symbols with special meanings and can be used to substitute for one or more characters in filenames.
+  
+| Wildcard          | Description                                         | Example                  |
+|-------------------|-----------------------------------------------------|--------------------------|
+| `*` (star)        | Represents zero or more characters.                 | `*.txt` matches all files with a `.txt` extension. |
+| `?` (question mark) | Represents any single character.                    | `image?.jpg` matches `image1.jpg`, `image2.jpg`, etc. |
+| `[]` (square brackets) | Represents one character from a list given in brackets. | `file[1-3].txt` matches `file1.txt`, `file2.txt`, or `file3.txt`. |
+
+- These wildcards are used for pattern matching in Bash commands like ls, cp, mv, etc., allowing users to select specific files based on their names.
 
 
