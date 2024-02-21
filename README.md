@@ -102,6 +102,7 @@
 - GUls are well-suited to graphical tasks, such as editing images and documents. However, they may require excessive repetitive actions in some situations.
 - CLIs are well-suited to automation, such as mass-conversion of thousands of images. However, they're not well suited to occasional tasks.
 - GUls require far more data than CLIs. A typical CLI display contains about 2 kilobytes of data; a typical HD GUI display contains about 6 megabytes (6000 kilobytes) of data. Therefore, CLIs are often used over remote connections.
+- A text user interface (TUI) utilizes the same display technology as a CLI but presents a full-screen interface instead of scrolling command-and-response output.
 
 ### System Libraries
 - its like function that performs similar task all time
@@ -118,4 +119,11 @@
 - Utilities = Tools provided by the operating system for setup, configuration, and maintenance tasks, Can be accessed through GUI or CLI, GUI Utilities:- Disk Management tool (Windows), System Preferences (MacOS), CLI Utilities:- ls (list files and directories), grep (search text), chmod (change file permissions).
 - Applications = Basic starter programs provided by the operating system, Include text editors, clocks, games, and sometimes web browsers like notepad, internet explorer, firefox, clockapp
 
-  
+## Hsitory
+- In the early days of computing, standardization was impossible due to unique, one-of-a-kind computers. Modern operating system concepts trace back to Multics, developed at MIT from 1965. Bell Labs, initially involved in Multics, withdrew early. Two Bell employees, Dennis Ritchie and Ken Thompson, later developed Unix, incorporating similar concepts from Multics.
+- **UNIX** = Unix was first made for one type of computer, but later changed so it could work on many different types. It became popular with different computer companies because it meant they didn't have to make their own operating systems. Unix was also liked by schools because they could look at the code. Microsoft got a version of Unix called Xenix for small computers.
+- **CP/M** =, originally the Control Program/Monitor, later renamed Control Program for Microcomputers, was another popular operating system. When IBM entered the microcomputer market in 1981, it hired Microsoft to provide an operating system. Microsoft licensed and later bought 86-DOS from another company, renaming it PC-DOS for IBM and MS-DOS for direct sale from Microsoft. These systems were heavily influenced by CP/M in design and structure. Unlike Unix, DOS was single-tasking and lacked a hierarchical filesystem for organizing files into nested folders or directories.
+- **Operating systems started getting graphical user interfaces (GUIs)** = Unix systems got GUIs in 1984 with the introduction of the X Window System from MIT. DOS got multitasking and a GUI with the release of Windows 1.0 in 1985.Windows NT 3.1, released in 1993, was a new 32-bit operating system that combined features from DOS/Windows and a jointly-developed Microsoft-IBM operating system named OS/2. Even though it wasn't based on DOS, it could still run DOS programs and maintain compatibility with DOS commands. All modern versions of Windows are built on Windows NT.
+- **Unix transformed from a proprietary product of Bell Labs/AT&T into a family of related operating systems customized by different vendors** = Initially proprietary, Unix later branched out into various versions sold under different names such as XENIX, AIX, Ultrix, HP/UX, among others.Standard bodies like IEEE, The Open Group, and ISO defined standards for "Unix-like" operating systems, specifying their components and operations.Unix evolved into a trademark rather than a single product. Operating systems conforming to Unix standards gained permission to use the Unix trademark.
+- **The Post-Unix World** = In today's computing, while Unix's trademark has lost significance, numerous operating systems are Unix-like, yet few have undergone official conformance testing.
+
