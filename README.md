@@ -212,6 +212,7 @@
 
 ### path travelling
 - [absolute and replative paths- imp video](https://youtu.be/ephId3mYu9o?si=4-TbFCThjPo43NHJ)
+- [another vid](https://youtu.be/hTX2gItOECw?si=gszi8a1pBR9odayN)
 
 | Linux Command       | Description                                      | Windows Command                 | Description                                     |
 |---------------------|--------------------------------------------------|---------------------------------|-------------------------------------------------|
