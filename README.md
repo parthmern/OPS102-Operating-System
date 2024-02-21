@@ -400,3 +400,8 @@
 - change group = ` sudo chown :new_group filename_or_directory `
 - chnage user and group same command = ` sudo chown newuser:newgroup example.txt `
 
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/bf70dd08-9fc1-4f46-9aeb-a3d585b95ada)
+
+[explaination video](https://youtu.be/-BDmmlgF1kM?si=_HW_DFGTHald-Js5)
+
+
