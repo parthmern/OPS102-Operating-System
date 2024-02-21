@@ -128,9 +128,9 @@
 - **The Post-Unix World** = In today's computing, while Unix's trademark has lost significance, numerous operating systems are Unix-like, yet few have undergone official conformance testing.
 
 ## ssh
-- SSH stands for Secure Shell. It's a network protocol that allows you to securely connect to another computer over an unsecured network, such as the internet.
-- Imagine you have two computers, a local one (your computer) and a remote one (a server, for example). SSH lets you log into the remote computer and control it as if you were sitting right in front of it.
-- It encrypts the data being transmitted, so even if someone intercepts it, they can't understand what's being sent. This makes SSH a safe way to communicate and work on remote computers without worrying about unauthorized access or data interception.
+- SSH stands for *Secure Shell*. It's a network protocol that allows you to securely connect to another computer over an unsecured network, such as the internet.
+- Imagine you have two computers, a local one (your computer) and a remote one (a server, for example). SSH lets you *log into the remote computer and control it* as if you were sitting right in front of it.
+- It *encrypts* the data being transmitted, so even if someone intercepts it, they can't understand what's being sent. This makes SSH a safe way to communicate and work on remote computers without worrying about unauthorized access or data interception.
 - softwares that support ssh protocol - OpenSSH, PuTTY, WinSCP, FileZilla
   
 <br/>
@@ -148,7 +148,58 @@
 - ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2a222170-1e19-41bf-9cfd-2586c65c1527)
     - C:\Users\username: In Windows, this indicates the current directory, which is the user's home folder.
 
+### basic commads
 
+| Windows  | Linux  | Description                                  | Example                    |
+|----------|--------|----------------------------------------------|----------------------------|
+| `clear`  | `cls`  | Clears the terminal screen.                 | `clear`                    |
+| `echo`   | `echo` | Print something on the screen.              | `echo Hello, world!`       |
+|          | `cal`  | Display calendar.                           | `cal`                      |
+| `date`   | `date` | Shows date and time. Equivalent to `date /t` and `time /t` in Windows. | `date`             |
+| `whoami` | `whoami` | Prints Information about current logged-in user. | `whoami`               |
+| `cls`    |        | Clears the terminal screen.                 | `cls`                      |
+| `tree`   | `tree` | Shows the folder hierarchy in tree format.  | `tree`                     |
 
+## File System
+- A file system organizes and retrieves files efficiently from a storage medium such as a hard disk.
+- Both Linux and Windows utilize hierarchical file systems.
+- Files are organized in folders and subfolders.
+- In command-line interfaces, folders are referred to as directories.
+- In Windows, the file system hierarchy starts from drives like C, D, etc., whereas Linux has a root directory (/) from which all files and directories stem.
 
+### Files and Folders:
+- Virtually everything in modern computer systems is either a file or a folder.
+- Folders act as containers that can hold files and other folders (sub-folders).
+- Examples of common folders include Home, Desktop, and Root.
+- Files store user data and can be of various types, such as Word documents, Excel sheets, and PowerPoint presentations.
+
+### File Types and Extensions:
+- File types are identified by their extensions, typically the 3 or 4 characters after a dot.
+- Examples of file extensions include docx (Word documents), exe (executable programs), and txt (text files).
+- Each file type requires a specific program or application to open it.
+- Not having the required program for a file type can result in the inability to open the file properly.
+
+### File Naming Conventions:
+- File names should be meaningful and consistent.
+- Unix/Linux file systems are case-sensitive, while Windows is not.
+- Avoid non-alphanumeric characters in file names, as they may have special meanings to the system.
+- Spaces in file names should be avoided; consider using periods, hyphens, or underscores instead.
+
+### Linux Hierarchical File System:
+
+![linux-filesystem-hierarchy](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/97d35010-a5f0-4a28-ac6a-3843a926f170)
+
+| Directory Path  | Purpose                                              |
+|-----------------|------------------------------------------------------|
+| /               | Root, top of file system hierarchy                   |
+| /bin            | Common system binaries (commands)                    |
+| /home           | Used to store users' home directories                |
+| /usr            | This is called User, where user-related programs live|
+| /usr/bin        | Common utilities (commands) for users                |
+| /usr/sbin       | Common utilities for system administration           |
+| /etc            | System configuration files (e.g., passwd)            |
+| /var            | Dynamic files (log and mail files)                   |
+| /tmp, /var/tmp  | Temporary files for programs                         |
+| /dev            | Device driver files (terminals, printers, etc)       |
+| /opt            | User-installed application programs                  |
 
