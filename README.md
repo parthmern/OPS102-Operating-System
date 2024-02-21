@@ -253,3 +253,74 @@
 | `touch`       | No equivalent   | Create an empty file/Change the timestamp of the file | `touch myfile.txt` |
 | `ls`          | `dir`           | List directory contents                    | `ls`, `dir`                                  |
 
+## working with text files
+
+| Command | Usage | Example |
+|---------|-------|---------|
+| `cat`   | Display the contents of a file all at once on the screen. | `cat mytext.txt` |
+| `more`, `less` | Display the contents of a file one screen at a time. | `more bigfile.txt`, `less bigfile.txt` |
+| `head`, `tail` | Display the beginning or end of a file. | `head -n 5 numbers.txt`, `tail -n 3 numbers.txt` |
+| `cut`   | Remove undesired columns from your data in a file. | `cut -d',' -f1,2 data.csv` |
+| `sort`  | Sort the lines of a file. | `sort unsorted.txt` |
+| `diff`  | Find the differences between two files. | `diff file1.txt file2.txt` |
+| `file`  | Determine the type of a file. | `file myfile.jpg` |
+| `uniq`  | Display identical consecutive lines only once. | `uniq repeated.txt` |
+| `find`  | Find files matching specific criteria in the filesystem. | `find . -name "*.txt"` |
+| `grep`  | Find specific lines in a file. | `grep "orange" mytext.txt` |
+| `tr`    | Translate or replace the occurrences of characters. | `echo "hello" \| tr '[:lower:]' '[:upper:]'` |
+| `wc` | represent number of lines,words, characters| `wc fileName.txt` |
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/38f48f45-b1d4-4d6b-b9f4-cd042f3a08bc)
+
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/8f5a198e-ed9e-44e4-9c5c-dce93258de71)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/62214794-c3f7-41c2-a392-e796341683d5)
+
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/9e3c9820-e158-45c6-af59-bd9028cbb6ec)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/521e698f-a1f4-4327-aa17-220cdc3234de)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/631305d8-4107-4eb4-a26f-e33f7fe2fb18)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/8e206f7d-be83-4bdb-8540-3cbf3918e34c)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/ac375a25-d0a3-4bc3-8b4c-51019ed4a201)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2b467f5a-0490-49d5-9a3b-7c248249fc13)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/f4d55331-0529-4f2d-bb76-b892e735d629)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/19587833-6039-4943-b827-62d1f289736a)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/d98549d4-566e-42ca-b008-0db7a62aa482)
+
+<br/>
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/f933fae0-645c-4d2f-8e1b-cb9f1e0cd91a)
+
+
+
+
+
+
