@@ -192,7 +192,7 @@
 | Directory Path  | Purpose                                              |
 |-----------------|------------------------------------------------------|
 | /               | Root, top of file system hierarchy                   |
-| /bin            | Common system binaries (commands)                    |
+| /bin            | executable files, Common system binaries (commands)                    |
 | /home           | Used to store users' home directories                |
 | /usr            | This is called User, where user-related programs live|
 | /usr/bin        | Common utilities (commands) for users                |
@@ -202,4 +202,41 @@
 | /tmp, /var/tmp  | Temporary files for programs                         |
 | /dev            | Device driver files (terminals, printers, etc)       |
 | /opt            | User-installed application programs                  |
+
+
+### Paths
+- A path specifies the location of a file or directory in the file system.
+- It follows the directory tree hierarchy to point to a specific file system location.
+- In Linux, directories are separated by forward slashes ` / `
+- Windows, backslashes ` \ `
+
+### path travelling
+- [absolute and replative paths- imp video](https://youtu.be/ephId3mYu9o?si=4-TbFCThjPo43NHJ)
+
+| Linux Command       | Description                                      | Windows Command                 | Description                                     |
+|---------------------|--------------------------------------------------|---------------------------------|-------------------------------------------------|
+| `cd /bin`           | Change directory to /bin.                        | `cd D:\Courses\OPS102`          | Change directory to D:\Courses\OPS102.         |
+| `cd ~`              | Change directory to the user's home directory.  | `cd C:\Users`                   | Change directory to the C:\Users directory, equivalent to /home in Linux. |
+| `cd ..`             | Change directory to the parent directory.        | `cd ..`                         | Change directory to the parent directory.       |
+| `cd ./`             | Change directory to the current directory.      | `cd .\`                         | Change directory to the current directory.     |
+| `cd /`              | Change directory to the root directory.         | `cd \`                          | Change directory to the root directory.        |
+
+### listing content of dir
+| Linux Command | Description                                  | Windows Command | Description                                    |
+|---------------|----------------------------------------------|-----------------|------------------------------------------------|
+| `ls`          | List the contents of the current directory. | `dir`           | List the contents of the current directory.   |
+| `ls /bin`     | List the contents of the `/bin` directory.  | `dir D:\`       | List the contents of the `D` drive.           |
+
+### `ls -l` or `ll` in linux where first charater
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/d0d4b86c-9f30-4a4a-9695-4847bff0ecf2)
+
+
+| Character | Type           | Description                                        |
+|-----------|----------------|----------------------------------------------------|
+| -         | Regular File   | A regular file.                                    |
+| b or c    | Device File    | A block or character device file.                  |
+| d         | Directory      | A directory.                                       |
+| l         | Symbolic Link  | A symbolic link.                                   |
+| p         | Named Pipe     | A pipe for inter-process communication.           |
+| s         | Socket         | A socket for network communication.                |
 
