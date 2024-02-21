@@ -404,4 +404,7 @@
 
 [explaination video](https://youtu.be/-BDmmlgF1kM?si=_HW_DFGTHald-Js5)
 
+### umask
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/317d3c81-1c51-47fe-904b-d70a70ae7a86)
 
