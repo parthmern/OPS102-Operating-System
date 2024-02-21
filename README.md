@@ -127,3 +127,28 @@
 - **Unix transformed from a proprietary product of Bell Labs/AT&T into a family of related operating systems customized by different vendors** = Initially proprietary, Unix later branched out into various versions sold under different names such as XENIX, AIX, Ultrix, HP/UX, among others.Standard bodies like IEEE, The Open Group, and ISO defined standards for "Unix-like" operating systems, specifying their components and operations.Unix evolved into a trademark rather than a single product. Operating systems conforming to Unix standards gained permission to use the Unix trademark.
 - **The Post-Unix World** = In today's computing, while Unix's trademark has lost significance, numerous operating systems are Unix-like, yet few have undergone official conformance testing.
 
+## ssh
+- SSH stands for Secure Shell. It's a network protocol that allows you to securely connect to another computer over an unsecured network, such as the internet.
+- Imagine you have two computers, a local one (your computer) and a remote one (a server, for example). SSH lets you log into the remote computer and control it as if you were sitting right in front of it.
+- It encrypts the data being transmitted, so even if someone intercepts it, they can't understand what's being sent. This makes SSH a safe way to communicate and work on remote computers without worrying about unauthorized access or data interception.
+- softwares that support ssh protocol - OpenSSH, PuTTY, WinSCP, FileZilla
+  
+<br/>
+
+### **Linux terminal at start**
+
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/65818fc2-1a4d-46a4-bb1b-5b0c88dba67d)
+
+  - username: This is the username of the user who is currently logged in.
+   - servername: This is the local name or server name of the machine.
+   - ~: This symbol represents the home directory (e.g., /home/username in Linux). Every user has a "home" directory created for them when they receive an account.
+   - $: The dollar sign indicates that you are a normal user. If the prompt has a "#" symbol, it means the user is an administrator (root).
+
+### **windows terminal at start**
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2a222170-1e19-41bf-9cfd-2586c65c1527)
+    - C:\Users\username: In Windows, this indicates the current directory, which is the user's home folder.
+
+
+
+
+
