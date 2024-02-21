@@ -319,8 +319,20 @@
 
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/f933fae0-645c-4d2f-8e1b-cb9f1e0cd91a)
 
-
-
+### Text Editors:
+- Text editors are essential tools that allow users to create, modify, and save editing changes of text files.
+- They are commonly used for various tasks such as editing system configuration files, writing scripts and programs, editing documentation, and developing web pages.
+- Proficiency in using a text editor is crucial for installing, configuring, and running network services.
+- there are many some for windows and some for linux here is ex. VIM, Nano, Gedit, Notepad, Notepad++, Sublime Text
+- **NANO** = `nano fileName.txt`  
+- Nano commands typically consist of the ^ symbol, representing the <ctrl> key, followed by another character (command).
+- Basic Nano commands include:
+  - ^G - Get help at any time
+  - ^R - Open a file
+  - ^O - Save a file
+  - ^W - Find
+  - ^\ - Replace
+  - ^X - Exit
 
 
 
