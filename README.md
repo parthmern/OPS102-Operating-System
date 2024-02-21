@@ -17,6 +17,8 @@
 - Collection of system softwares
 - ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/b6225ab7-9fdb-42c5-90f7-a0395d5b412f)
 
+### Types of OS 
+- [Pdf](https://drive.google.com/file/d/1EHE-nnTHMQzQP7xGRQo2g7cPpEGlq7q1/view)
 
 ## what does OS do
 ### hardware abstraction
@@ -115,3 +117,5 @@
 ### utilities and applications
 - Utilities = Tools provided by the operating system for setup, configuration, and maintenance tasks, Can be accessed through GUI or CLI, GUI Utilities:- Disk Management tool (Windows), System Preferences (MacOS), CLI Utilities:- ls (list files and directories), grep (search text), chmod (change file permissions).
 - Applications = Basic starter programs provided by the operating system, Include text editors, clocks, games, and sometimes web browsers like notepad, internet explorer, firefox, clockapp
+
+  
