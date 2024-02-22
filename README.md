@@ -421,3 +421,5 @@
 - Redirection of Input from a File (<): Uses the < symbol to provide input to a command from a file. Example:` wc -l < input.txt `
 - here input.txt files become input for the wc command that counts the number of line,words,characters
 
+## Process management in linux
+- [videoLink](https://youtu.be/pb84kbpT6QE?si=krTm4V-OmsXpslJh)
