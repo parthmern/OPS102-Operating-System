@@ -537,3 +537,7 @@ $ 1s -l "new file"
   
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/893f1d9c-64a9-453f-bd24-596984c3e4df)
 
+## test command or  [[ ]] 
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/7ac370fc-f5d8-4678-9135-4b53db601944)
+
+here [[`<space>` actual thing `<space>]`]
