@@ -522,3 +522,9 @@ $ 1s -l "new file"
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/1a0ef5ca-e019-4a3b-89a8-2ad5dc1de700)
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/9ad9ac64-4ce1-4b8b-b9c1-2b072716928f)
 
+
+## arithmetic
+- $(( )) 
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/fa2590cb-62c4-464c-9a35-7d39a624ba80)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/0fae2269-6dfa-4a9b-9ca1-e930bacc09bd)
+
