@@ -423,3 +423,102 @@
 
 ## Process management in linux
 - [videoLink](https://youtu.be/pb84kbpT6QE?si=krTm4V-OmsXpslJh)
+
+--------------------------------
+--------------------------------
+
+## Shell Script
+- This guide provides an overview of what shell scripts are and outlines the basic requirements for creating and running shell scripts on Unix-like operating systems.
+
+## What is a Shell Script?
+
+A shell script is a text file containing a sequence of commands for a Unix shell. It's a simple program that automates command-line tasks that could otherwise be performed manually.
+
+## Basic Requirements for Shell Scripts
+
+To create and execute a shell script, you need to follow these steps:
+
+### 1. Create a File Containing Shell Commands
+
+- Use any text editor (e.g., `vim`, `nano`, `gedit`) to write your script.
+- Write the commands exactly as you would enter them at the command line.
+- Save the file with a `.sh` extension for clarity (e.g., `myscript.sh`).
+
+### 2. Specify the Shell to Execute the Commands
+
+- At the start of the file, add a shebang line to specify the shell interpreter.
+- The shebang line starts with `#!` followed by the shell path.
+- Example shebang line for Bash: `#!/usr/bin/bash`
+- The shebang is a combination of "sharp" (#) and "bang" (!), hence the name.
+- It tells the kernel to use the specified shell to execute the script.
+- The `#` also makes the line a comment, ignored by the shell during execution.
+
+### 3. Set Appropriate Permissions
+
+- The script file requires execute permission to be run by the kernel.
+- It also needs read permission for the shell to read the script's content.
+- Set permissions using the `chmod` command.
+- Example: `chmod u+rx myscript.sh`
+- `u+rx` grants the user read and execute permissions.
+
+## Testing Your Script
+
+Before deploying your script in a production environment, make sure to test it thoroughly to ensure it behaves as expected.
+
+## Example Script
+
+Here's a simple example of a shell script that prints "Hello, World!" to the console:
+
+```
+#!/usr/bin/bash
+# This script prints "Hello, World!" to the console.
+
+VARIABLE=VALUE
+a=parth
+b="parth patel"  //for space " "
+// no space between = make sure
+// name is case sensitive
+// start with letter and can contain letter,number,underscore
+
+$VARIABLE
+// way to access variable value
+
+echo "Hello, World! $VARIABLE $a $b"
+```
+- file name should be `fileName.sh` and then add direct filename with extenstion to execute
+<br/>
+
+- other way
+```
+WHAT="World"
+echo "Hello $WHAT"  // Hello World
+echo 'Hello $WHAT'  // Hello $WHAT
+```
+
+<br/>
+
+
+- Quoting: One argument vs. Multiple
+
+```
+$ touch "new file"
+$ ls -l new file
+ls: cannot access 'new': No such file or directory
+ls: cannot access 'file': No such file or directory
+$ 1s -l "new file"
+-rw-r--p--. l chris chris 0 Jun 18 22:47 'new file'
+```
+
+- read var in terminal
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/836b7a16-6ed2-4ed5-b684-d892fd81ea71)
+
+- read var in bash
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/ca4bdc2c-836a-4b7c-a0a1-d4085ec2f1f2)
+
+## environment variables
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/b9e32972-5894-428a-932a-016ee6e8d4d7)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2c7fdaee-8c01-40a0-b2af-34e04bfd1da0)
+
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/1a0ef5ca-e019-4a3b-89a8-2ad5dc1de700)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/9ad9ac64-4ce1-4b8b-b9c1-2b072716928f)
+
