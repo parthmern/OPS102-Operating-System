@@ -528,3 +528,12 @@ $ 1s -l "new file"
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/fa2590cb-62c4-464c-9a35-7d39a624ba80)
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/0fae2269-6dfa-4a9b-9ca1-e930bacc09bd)
 
+## Exit code
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/0d4b9c30-4486-4d71-b7a6-c80e535e0203)
+
+## Conditions
+- here exit code matters if exit code is 0 means true 
+- if exit code is other than 0 like 1,2,3 means false
+  
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/893f1d9c-64a9-453f-bd24-596984c3e4df)
+
