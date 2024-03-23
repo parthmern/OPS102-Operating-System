@@ -541,3 +541,20 @@ $ 1s -l "new file"
 ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/7ac370fc-f5d8-4678-9135-4b53db601944)
 
 here [[`<space>` actual thing `<space>]`]
+
+## conditions
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2ff6a21c-8fac-41c1-a85c-2472bf1b0f73)
+
+- ex
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/e3b33135-5fb1-4994-a553-ad7257cb611d)
+
+## Accessing Script Parameters
+- `$0` refers to the name of the script itself.
+- `$1`, `$2` , `$3` , etc., refer to the first, second, third, and so on, positional parameters (arguments) passed to the script.
+- `$#` represents the total number of positional parameters.
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/67f01fac-4dbc-46ef-a7a3-7234b5cbde47)
+
+<br/>
+
+- `$*` - for all params as single string and `$@` - for all params as different string usage
+- ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/5ffc3d0a-2b35-4325-aea1-11c896b65fee)
