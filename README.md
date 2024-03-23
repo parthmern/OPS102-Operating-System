@@ -558,3 +558,12 @@ here [[`<space>` actual thing `<space>]`]
 
 - `$*` - for all params as single string and `$@` - for all params as different string usage
 - ![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/5ffc3d0a-2b35-4325-aea1-11c896b65fee)
+
+## Loop
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/0c03a4c6-50e9-49c5-aa62-77c0a5e5a0b5)
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/61736f57-9859-4de0-97fe-b3adb49e4e80)
+
+- `.bash_profile` and `.bashrc` usage
+  
+![image](https://github.com/parthmern/OPS102-Operating-System/assets/125397720/2d7b6868-6d04-458a-8a71-802a72ab21e6)
+
